@@ -1,5 +1,5 @@
 # Info
-Website for kath. Burschenverein Burgheim
+Website für das Kochbuch der Sonntags-Tradition
 
 # Published
 https://schneggera.github.io/bvWebsite/
