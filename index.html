@@ -17,6 +17,9 @@
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet" />
 
+    <!-- Image editing -->
+    <link href="css/img.css" rel="stylesheet" />
+
     <!-- Font Awesome-->
     <link
       rel="stylesheet"
@@ -70,7 +73,7 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="./html/insert.html">
                 <i class="fas fa-plus"></i>
-            </a>
+              </a>
             </li>
           </ul>
         </div>
@@ -79,8 +82,13 @@
 
     <header class="bg-header text-white">
       <div class="container text-center">
-        <h1>Kath. Burschenverein Burgheim</h1>
-        <img src="img/title.png" class="img-fluid" alt="Responsive image" />
+        <h1>Kochbuch der Sonntags-Tradition.</h1>
+        <img
+          src="img/title.jpg"
+          class="img-fluid"
+          id="titleimg"
+          alt="Responsive image"
+        />
       </div>
     </header>
 
@@ -91,7 +99,14 @@
             <h2>Was wir machen</h2>
             <hr />
             <p>
-              <button type="button" class="btn btn-primary" id="berechnen" onclick="alert('dödelmann')">KLICK MICH AN</button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                id="berechnen"
+                onclick="alert('dödelmann')"
+              >
+                KLICK MICH AN
+              </button>
             </p>
           </div>
           <div class="col-md-4 mb-5">
@@ -99,19 +114,19 @@
             <hr />
             <address>
               <strong>Verantwortlich:</strong>
-              <br />Katholischer Burschenverein Burgheim e.V. <br />Lange Gasse
-              23, 86666 Burhgeim
+              <br />Traditionelle Sontagstradition <br />Schöne Str. 1, 86644
+              Überall
               <br />
             </address>
             <address>
               <strong>Kontakt:</strong>
-              <br />Katholischer Burschenverein Burgheim e.V. <br />1. Vorstand:
-              Fieger Stefan <br />Fasanenring 17, 86666 Burgheim
+              <br />Traditionelle Sontagstradition <br />1. Vorstand: Alle
+              <br />Schöne Str. 1, 86644 Überall
               <br />
             </address>
             <address>
-              <abbr title="Email">E:</abbr>
-              <a href="mailto:#">info@kath-burschenverein-burgheim.de</a>
+              <abbr title="Email">E-Mail:</abbr>
+              <a href="mailto:#">info@sonntags-tradition.re1chel.de</a>
             </address>
           </div>
         </div>
@@ -124,10 +139,10 @@
           <div class="col-lg-8 mx-auto">
             <h2>Aktuelles</h2>
             <hr />
-            <p class="lead">Buba 2021 coming soon</p>
+            <p class="lead">After Corona Tradition coming soon!</p>
             <ul>
-              <li>Datum:</li>
-              <li>Infos:</li>
+              <li>Datum: Wenn da Markus uns wieder lässt.</li>
+              <li>Infos: gibt auf jeden Fall was leckeres zum Essen</li>
               <li>...:</li>
               <li>...:</li>
             </ul>
@@ -142,12 +157,15 @@
           <div class="col-lg-8 mx-auto">
             <h2>Verein</h2>
             <hr />
+            <p class="lead">
+              Die aktuelle Besetzung des kulinarik Expertenkreises.
+            </p>
             <img
-              src="img/vorstandschaft.jpg"
+              src="img/gruppe.jpg"
               class="img-fluid"
+              id="groupimg"
               alt="Vorstandschaft"
             />
-            <p class="lead">Die aktuelle Vorstandschaft</p>
           </div>
         </div>
       </div>
@@ -160,11 +178,11 @@
             <h2>Vereinsgeschichte</h2>
             <hr />
             <img
-              src="img/vereinsgeschichte.jpg"
+              src="img/gruppengeschichte.jpg"
               class="img-fluid"
+              id="historyimg"
               alt="Bild Fest"
             />
-            
           </div>
         </div>
       </div>
