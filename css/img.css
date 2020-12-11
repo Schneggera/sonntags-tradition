@@ -1,0 +1,10 @@
+#groupimg {
+    border-radius: 80%;
+}
+
+#titleimg {
+    height: auto; 
+    width: auto; 
+    max-width: 720px; 
+    max-height: 720px;
+}
