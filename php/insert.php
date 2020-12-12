@@ -25,5 +25,8 @@ function debug_to_console($data) {
     echo $output;
 }
 debug_to_console($jsonData);
+debug_to_console($_POST['title']);
+debug_to_console($_POST['ingredients']);
+debug_to_console($_POST['recipe']);
 
 ?>

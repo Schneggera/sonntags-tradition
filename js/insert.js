@@ -4,7 +4,7 @@ $('#insertRecipe').on("submit", function (event) {
     console.log(formData);
     $.ajax({
         method: 'POST',
-        url: "/php/insert.php",
+        url: "../php/insert.php",
         data: formData,
     
         success: function(){
