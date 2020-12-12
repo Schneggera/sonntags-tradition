@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch Chrome",
+            "name": "Launch Chrome Tobias",
             "request": "launch",
             "type": "pwa-chrome",
             "url": "http://localhost:8080",
@@ -15,7 +15,7 @@
             "name": "Launch Chrome",
             "request": "launch",
             "type": "pwa-chrome",
-            "url": "http://localhost:8080",
+            "url": "http://localhost/sonntags-tradition",
             "webRoot": "${workspaceFolder}"
         },
         {
