@@ -6,11 +6,12 @@ $arr = array(
         "recipe" => $_POST['recipe']
     );
 
-$inp = file_get_contents('results.json');
+$file = $_POST['courses'] . '.json';
+$inp = file_get_contents($file);
 $tempArray = json_decode($inp);
 array_push($tempArray, $arr);
 $jsonData = json_encode($tempArray);
-file_put_contents('results.json', $jsonData);
+file_put_contents($file, $jsonData);
 
 
 //$recipeJson = json_encode($recipe);
@@ -24,6 +25,6 @@ function debug_to_console($data) {
 
     echo $output;
 }
-debug_to_console($jsonData);
+debug_to_console($file);
 
 ?>
