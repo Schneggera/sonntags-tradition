@@ -12,8 +12,8 @@ array_push($tempArray, $arr);
 $jsonData = json_encode($tempArray);
 file_put_contents('results.json', $jsonData);
 
-//$recipeJson = json_encode($recipe);
 
+//$recipeJson = json_encode($recipe);
 //$inp = file_get_contents('results.json');
 //$inp .= $recipeJson;
 
